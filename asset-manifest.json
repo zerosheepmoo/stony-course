@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/stony-course/static/js/main.0027ccf5.js",
+    "main.js": "/stony-course/static/js/main.06088130.js",
     "index.html": "/stony-course/index.html",
-    "main.0027ccf5.js.map": "/stony-course/static/js/main.0027ccf5.js.map"
+    "main.06088130.js.map": "/stony-course/static/js/main.06088130.js.map"
   },
   "entrypoints": [
-    "static/js/main.0027ccf5.js"
+    "static/js/main.06088130.js"
   ]
 }
