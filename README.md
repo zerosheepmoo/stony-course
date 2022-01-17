@@ -10,7 +10,11 @@
 - too much time spent (to search)
 - bad readability
 
-## Run!
+## So, I deployed
+
+- See the [Github Pages](https://zerosheepmoo.github.io/stony-course/)
+
+## Dev
 
 1. clone the repo
 2. install nodejs and yarn (if you haven't)
