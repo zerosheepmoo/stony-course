@@ -10,6 +10,10 @@
 - too much time spent (to search)
 - bad readability
 
-## So, I deployed
+## Run!
 
-- Yeah. See the [Github Pages](https://zerosheepmoo.github.io/stony-course).
+1. clone the repo
+2. install nodejs and yarn (if you haven't)
+3. go to the project root dir (that `package.json` file located)
+4. open terminal and type `yarn start`
+5. DONE!

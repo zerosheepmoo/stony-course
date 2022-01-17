@@ -34,7 +34,7 @@ function App() {
             setIsLoading(true);
 
             const data = await axios.get(
-                `/api/sb/bulletin/current/courses/${major}/`
+                `/stony-course/api/sb/bulletin/current/courses/${major}/`
             );
 
             // console.log(data.data);
