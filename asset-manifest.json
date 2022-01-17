@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/stony-course/static/js/main.b645af5d.js",
+    "index.html": "/stony-course/index.html",
+    "main.b645af5d.js.map": "/stony-course/static/js/main.b645af5d.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b645af5d.js"
+  ]
+}
