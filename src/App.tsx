@@ -34,7 +34,7 @@ function App() {
             setIsLoading(true);
 
             const data = await axios.get(
-                `/stony-course/api/sb/bulletin/current/courses/${major}/`
+                `https://sbu-course.herokuapp.com/stony-course/api/${major}/`
             );
 
             // console.log(data.data);
