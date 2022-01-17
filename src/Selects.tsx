@@ -1,8 +1,9 @@
 import React from "react";
 import InputLabel from "@mui/material/InputLabel";
-import Select, { SelectChangeEvent } from "@mui/material/Select";
+import Select from "@mui/material/Select";
 import FormControl from "@mui/material/FormControl";
 import MenuItem from "@mui/material/MenuItem";
+import FormHelperText from "@mui/material/FormHelperText";
 import { majorList } from "./majorList";
 
 interface SelectsProps {
@@ -31,6 +32,7 @@ const Selects: React.VFC<SelectsProps> = ({ major, setMajor }) => {
                         </MenuItem>
                     ))}
                 </Select>
+                <FormHelperText>🤗</FormHelperText>
             </FormControl>
         </div>
     );
