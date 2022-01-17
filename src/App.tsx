@@ -300,7 +300,10 @@ function App() {
                                     {text}
                                 </Typography>
                             );
-                        } else if (text.includes(" credits")) {
+                        } else if (
+                            text.includes(" credits") &&
+                            text.length < 12
+                        ) {
                             return (
                                 <Chip
                                     sx={{
