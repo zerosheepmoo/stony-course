@@ -124,7 +124,9 @@ function App() {
                 height: "100%",
                 minHeight: "100vh",
                 display: "flex",
-                mt: 8,
+                pt: 8,
+
+                backgroundColor: "#efefef",
             }}
             className="App"
         >
@@ -175,6 +177,8 @@ function App() {
                                     display: "flex",
                                     flexDirection: "column",
                                     justifyContent: "space-between",
+
+                                    backgroundColor: "#fdfdfd",
                                 }}
                                 elevation={3}
                                 key={`course-${idx}`}
@@ -291,7 +295,7 @@ function App() {
                                     {text}
                                 </Typography>
                             );
-                        } else if (text.includes(":")) {
+                        } else if (text.includes(":") && text.length < 50) {
                             return (
                                 <Typography
                                     key={`in-details-${i}`}
@@ -307,7 +311,7 @@ function App() {
                             return (
                                 <Chip
                                     sx={{
-                                        m: 2,
+                                        m: 3,
                                         position: "absolute",
                                         left: 0,
                                         top: 0,
